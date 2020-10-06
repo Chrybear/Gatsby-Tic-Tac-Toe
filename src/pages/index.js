@@ -1,5 +1,6 @@
 import React from "react"
+import TicTacToe from "./components/TicTacToe"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div> <TicTacToe/> </div>
 }
