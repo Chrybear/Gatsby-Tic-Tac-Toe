@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Game from './game.js';
 
-export default function TicTacToe(){
-	return <div><Game/></div>
+class TicTacToe extends React.Component{
+	render(){
+		return(<div><Game/></div>);
+	}
 }
+
+export default TicTacToe;
 
 

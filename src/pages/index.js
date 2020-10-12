@@ -1,6 +1,10 @@
 import React from "react"
 import TicTacToe from "./components/TicTacToe"
 
-export default function Home() {
-  return <div> <TicTacToe/> </div>
+class Home extends React.Component{
+	render(){
+		return(<div> <TicTacToe/> </div>);
+	}
 }
+
+export default Home;

@@ -1,2 +1,3 @@
-This is meant to be a Gatsby website version of the Tic Tac Toe game.
-However, I cannot figure out what is going wrong. So it does not currently work.
+This is a modification of the TicTacToe game to run as a Gatsby site.
+To run it, open it's containing folder in your preferred console and be sure to first run "npm install" to get to correct files to run it.
+Then just enter "gatsby develop" and open "http://localhost:8000/" in your browser of choice and game on.
