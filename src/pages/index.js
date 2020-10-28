@@ -1,5 +1,8 @@
-import React from "react"
-import TicTacToe from "./components/TicTacToe"
+import React from "react";
+import TicTacToe from "./components/TicTacToe";
+import "./commands";
+import "cypress-axe";
+import "@testing-library/cypress/add-commands";
 
 class Home extends React.Component{
 	render(){
