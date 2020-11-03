@@ -10,7 +10,7 @@ describe('Game', () =>{
 	it('Should show next player is X', () =>{
 		const wrap = mount(<Game />);
 		const txt = wrap.find('.game-info div');
-		console.log(txt.text());
+		//console.log(txt.text());
 		expect(txt.text()).toBe('Next player: X');
 	});
 	
@@ -19,7 +19,7 @@ describe('Game', () =>{
 		//Okay, it isn't technically clicking the button, but the function is the same
 		wrap.instance().handleClick(0); //Simulates clicking the top left space
 		const txt = wrap.find('.game-info div');
-		console.log(txt.text());
+		//console.log(txt.text());
 		expect(txt.text()).toBe('Next player: O');
 	});
 	
@@ -28,7 +28,7 @@ describe('Game', () =>{
 		wrap.instance().handleClick(0); //"Click" the first square again
 		wrap.instance().handleClick(1); //"Now it's X's turn again
 		const txt = wrap.find('.game-info div');
-		console.log(txt.text());
+		//console.log(txt.text());
 		expect(txt.text()).toBe('Next player: X');
 	});
 	

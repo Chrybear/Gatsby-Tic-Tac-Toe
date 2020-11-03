@@ -8,6 +8,7 @@ test('Simple test for when there is a winner', () => {
 				null, null, "X"];
 	const wrap = renderer.create(<Game/>);
 	const getIn = wrap.getInstance();
+	//console.log('gives_winner test');
 	//console.log(getIn);
 	expect(getIn.calculateWinner(dummy)).toBe("X");
 })
